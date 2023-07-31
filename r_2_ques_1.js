@@ -55,3 +55,12 @@ a = 10; // Since let can't be declared twice. We removed let keyword in the seco
 const a = 5;
 
 a = 10; // This gives an assign error. It can't be reinitialized. But let can be reinitialized.
+
+
+// What about declaration without putting any value?
+
+var a; // This will work
+
+let a; // This will also work.
+
+const a; // This will give an error because it can't be declared without value.
