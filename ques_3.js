@@ -1,4 +1,5 @@
 // Q-3: Explain Event Delegation
+// Check it's output on file named index.html
 
 document.querySelector('#products').addEventListener('click', (event) => {
     console.log(event);
